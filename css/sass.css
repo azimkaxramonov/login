@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 550px;
+  max-height: 800px;
+  border: solid 0px black;
+}
+.container h3 {
+  text-align: center;
+  color: #b2b2b2;
+  font-weight: 300;
+}
+.container .gridbox {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.container .icons {
+  margin-left: 130px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  max-height: 100px;
+  border: solid 0px;
+}
+.container .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: whitesmoke;
+  border-radius: 10%;
+}
+.container .email {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.container .email #input {
+  border: solid 0px;
+  border-radius: 7px;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: #ebeef7;
+  outline: 0;
+  color: #b8bcc8;
+}
+.container .password {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.container .password #input {
+  border: solid 0px;
+  border-radius: 7px;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: #ebeef7;
+  outline: 0;
+  color: #b8bcc8;
+}
+.container .chekbox {
+  margin-left: 75px;
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+.container .chekbox #inputchek {
+  width: 17px;
+  height: 17px;
+}
+.container .knopka {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container #button {
+  width: 400px;
+  height: 40px;
+  outline: 0;
+  background-color: #0cd091;
+  border: solid 0px;
+  border-radius: 7px;
+  color: white;
+}
+.container .text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.mid {
+  margin-top: 30px;
+}
+
+.container2 {
+  margin: 0 auto;
+  max-width: 650px;
+  max-height: 1000px;
+  border: solid 1px;
+  background-color: #1e1e1e;
+  margin-bottom: 50px;
+}
+.container2 p {
+  margin-top: 20px;
+  margin-left: 80px;
+  color: #7a7a7a;
+  margin-bottom: 40px;
+}
+.container2 .containermid {
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 600px;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #262626;
+}
+.container2 .containermid h3 {
+  color: white;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+.container2 .containermid .email {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .containermid .email #emaill {
+  padding-left: 20px;
+  color: #646464;
+  border: solid 1px;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  outline: 0;
+  background-color: #262626;
+}
+.container2 .containermid .password {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .containermid .password #password {
+  padding-left: 20px;
+  color: #646464;
+  border: solid 1px;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  outline: 0;
+  background-color: #262626;
+}
+.container2 .containermid .knopka2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .containermid .knopka2 #buttonn {
+  width: 400px;
+  height: 40px;
+  outline: 0;
+  background-color: #343434;
+  border: solid 0px;
+  border-radius: 7px;
+  color: white;
+}
+.container2 .containermid #p1 {
+  margin-left: 140px;
+}
+.container2 .containermid .image {
+  display: flex;
+  justify-content: center;
+}
+.container2 #p2 {
+  margin-left: 180px;
+}
+.container2 a {
+  text-decoration: none;
+}/*# sourceMappingURL=sass.css.map */
